@@ -111,12 +111,37 @@ header {
   font-size: 18px;
 }
 
+.text-zoekbalk:focus-visible {
+  outline-style: none;
+}
+
+.filter {
+  display: inline-flex;
+  align-items: center;
+  font-family: rigid-square, sans-serif;
+  margin: 1em 0em 0em 3.5em;
+}
+
+.filter-svg {
+  height: 2em;
+  width: 2em;
+  padding-right: 1em;
+}
+
+.filter-svg:hover {
+  cursor: pointer;
+}
+
 .dropdown-totaal {
+  display: none;
+}
+
+.dropdown-totaal-zichtbaar {
   width: 50%;
   display: flex;
   justify-content: flex-start;
-  padding: 1em 0em 0em 7em;
   gap: 2em;
+  padding: 1em 0em 0em 7em;
 }
 
 .dropdown-categoriën,
@@ -232,4 +257,8 @@ footer {
   justify-content: space-between;
   text-align: center;
   align-items: center;
+}
+
+span {
+  font-size: 16px;
 }
