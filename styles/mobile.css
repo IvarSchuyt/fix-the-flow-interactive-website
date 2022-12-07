@@ -113,7 +113,7 @@ header {
 
 .text-zoekbalk:focus-visible {
   outline-style: none;
-} 
+}
 
 .filter {
   display: inline-flex;
@@ -166,7 +166,7 @@ button {
   font-family: rigid-square, sans-serif;
   font-size: 1em;
   font-weight: 800;
-  padding: 0.75rem 1rem;
+  padding: 0.75em 1em;
   border: none;
   color: #090940;
   background-size: 400%;
@@ -178,6 +178,7 @@ button {
 .button-duur,
 .button-niveau {
   background-image: linear-gradient(90deg, #feb51e 50%, #090940 50%);
+  width: 7.5em;
 }
 .button-categoriën:hover,
 .button-duur:hover,
@@ -195,7 +196,6 @@ button {
   position: absolute;
   background-color: #f9f9f9;
   width: 15em;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
