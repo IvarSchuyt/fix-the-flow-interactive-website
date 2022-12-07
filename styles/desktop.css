@@ -151,7 +151,6 @@ header {
   padding: 1em 0em 0em 7em;
 }
 
-
 .dropdown-categoriën,
 .dropdown-duur,
 .dropdown-niveau {
@@ -279,6 +278,6 @@ footer {
   align-items: center;
 }
 
-span{
+span {
   font-size: 16px;
 }
