@@ -72,7 +72,7 @@ header {
 .header-text {
   padding: 1em 1em 0em 1em;
   font-weight: bold;
-  font-family: "Secular One", sans-serif;
+  font-family: "rigid-square", sans-serif;
 }
 
 .header-text:hover {
@@ -122,13 +122,35 @@ header {
   outline-style: none;
 }
 
+.filter {
+  display: inline-flex;
+  align-items: center;
+  font-family: rigid-square, sans-serif;
+  margin: 1em 0em 0em 3.5em;
+}
+
+.filter-svg {
+  height: 2em;
+  width: 2em;
+  padding-right: 1em;
+}
+
+.filter-svg:hover {
+  cursor: pointer;
+}
+
 .dropdown-totaal {
+  display: none;
+}
+
+.dropdown-totaal-zichtbaar {
   width: 50%;
   display: flex;
   justify-content: flex-start;
-  padding: 1em 0em 0em 7em;
   gap: 2em;
+  padding: 1em 0em 0em 7em;
 }
+
 
 .dropdown-categoriën,
 .dropdown-duur,
@@ -216,7 +238,7 @@ label:hover {
   grid-template: repeat(4, 1fr) / repeat(2, 1fr);
   margin: 0 auto;
   gap: 5em;
-  padding: 5em;
+  padding: 2em 5em 2em 5em;
 }
 
 @media screen and (max-width: 1050px) {

@@ -1,4 +1,10 @@
-console.log("test");
+let filter = document.querySelector(".filter");
+filter.addEventListener("click", myFunction);
+function myFunction() {
+  var element = document.querySelector(".dropdown-totaal");
+  element.classList.toggle("dropdown-totaal-zichtbaar");
+}
+
 /* When the user clicks on the button,
  toggle between hiding and showing the dropdown content */
 function myFunctionCategoriën() {
