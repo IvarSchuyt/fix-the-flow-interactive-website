@@ -1,0 +1,258 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 63.15px;
+}
+
+h2 {
+  font-size: 47.37px;
+}
+
+h3 {
+  font-size: 35.54px;
+}
+
+h4 {
+  font-size: 26.66px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+header {
+  z-index: 999;
+  height: 5em;
+  border-bottom: solid 1px #e0dedc;
+  width: 100%;
+}
+
+.header-totaal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.header-rechts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.logo {
+  position: absolute;
+  margin: auto 0;
+  top: 0.6em;
+  left: 2.5em;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.header-text {
+  padding: 1em 1em 0em 1em;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+}
+
+.header-text:hover {
+  cursor: pointer;
+}
+
+.profile {
+  height: 2.5em;
+  width: 2.5em;
+  padding-right: 1.5em;
+}
+.profile:hover {
+  cursor: pointer;
+}
+
+.subheader {
+  border-style: none;
+  width: 100%;
+  height: 4em;
+}
+
+.zoekbalk {
+  z-index: 999;
+  height: 4em;
+  border-bottom: solid 1px #e0dedc;
+  display: flex;
+  color: #c0beb9;
+  align-items: center;
+  padding-left: 3.5em;
+}
+
+.vergrootglas {
+  height: 2em;
+  width: 2em;
+  color: black;
+  padding-right: 1em;
+}
+
+.text-zoekbalk {
+  border-style: none;
+  width: 20em;
+  font-family: yrsa, serif;
+  font-size: 18px;
+}
+
+.text-zoekbalk:focus-visible {
+  outline-style: none;
+}
+
+.dropdown-totaal {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em 0em 0em 7em;
+  gap: 2em;
+}
+
+.dropdown-categoriën,
+.dropdown-duur,
+.dropdown-niveau {
+  display: inline-block;
+}
+
+/* button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+  background: transparent;
+  border-style: none;
+  font-size: 16px;
+  -webkit-text-fill-color: black;
+} */
+
+button {
+  font-family: rigid-square, sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  padding: 0.75em 1em;
+  border: none;
+  color: #090940;
+  background-size: 400%;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.button-categoriën,
+.button-duur,
+.button-niveau {
+  background-image: linear-gradient(90deg, #feb51e 50%, #090940 50%);
+  width: 7.5em;
+}
+.button-categoriën:hover,
+.button-duur:hover,
+.button-niveau:hover {
+  background-position: right center;
+  transform: scale(1.05);
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.dropdown-content-categoriën,
+.dropdown-content-duur,
+.dropdown-content-niveau {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 15em;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content-categoriën.show,
+.dropdown-content-duur.show,
+.dropdown-content-niveau.show {
+  display: block;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5em 0em 0.5em 0em;
+  font-family: yrsa, serif;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.sectie-a {
+  display: flex;
+}
+
+.werkvormen {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 5em;
+  padding: 5em;
+}
+
+@media screen and (max-width: 1050px) {
+  .werkvormen {
+    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+  }
+}
+
+.werkvorm {
+  background: #f9f8f8;
+  height: 15em;
+  width: 25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0dedc;
+  align-self: center;
+}
+
+.img-werkvorm {
+  height: 15em;
+  width: 25em;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
+  transition-timing-function: cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
+}
+
+.img-werkvorm:hover {
+  cursor: pointer;
+}
+
+footer {
+  font-family: rigid-square, sans-serif;
+  padding: 1em;
+  background: #625c51;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
