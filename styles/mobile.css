@@ -70,7 +70,7 @@ header {
 }
 
 .header-text {
-  padding: 1em 1em 0em 1em;
+  padding: 1em 1em 1em 1em;
   font-weight: bold;
   font-family: "Secular One", sans-serif;
 }
@@ -249,7 +249,7 @@ label:hover {
 
 .img-werkvorm {
   height: 15em;
-  width: 25em;
+  width: 2  5em;
   transition: all 200ms cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
   transition-timing-function: cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
 }
