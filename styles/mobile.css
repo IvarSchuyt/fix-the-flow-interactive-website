@@ -1,5 +1,8 @@
 html {
   font-size: 20px;
+  --point: pointer;
+  --light-gray: #e0dedc;
+  --dark-blue: #090940;
 }
 
 body {
@@ -36,7 +39,7 @@ h6 {
 header {
   z-index: 999;
   height: 5em;
-  border-bottom: solid 1px #e0dedc;
+  border-bottom: solid 1px var(--light-gray);
   width: 100%;
 }
 
@@ -64,7 +67,7 @@ header {
   margin: 0 2rem 0 2.3rem;
 }
 .logo:hover {
-  cursor: pointer;
+  cursor: var(--point);
 }
 
 .page-title {
@@ -93,7 +96,7 @@ header {
 .zoekbalk {
   z-index: 999;
   height: 4em;
-  border-bottom: solid 1px #e0dedc;
+  border-bottom: solid 1px var(--light-gray);
   display: flex;
   color: #c0beb9;
   align-items: center;
@@ -139,7 +142,7 @@ header {
 }
 
 .filter-svg:hover {
-  cursor: pointer;
+  cursor: var(--point);
 }
 
 .button-pas-toe {
@@ -176,17 +179,17 @@ button {
   font-weight: 800;
   padding: 0.75em 1em;
   border: none;
-  color: #090940;
+  color: var(--dark-blue);
   background-size: 400%;
   transition: 0.2s ease-in;
-  cursor: pointer;
+  cursor: var(--point);
 }
 
 .button-categoriën,
 .button-duur,
 .button-niveau,
 .button-pas-toe {
-  color: #090940;
+  color: var(--dark-blue);
   width: 7.5rem;
   background-color: #feb51e;
 }
@@ -195,7 +198,7 @@ button {
 .button-duur:hover,
 .button-niveau:hover,
 .button-pas-toe:hover {
-  background-color: #090940;
+  background-color: var(--dark-blue);
   color: white;
   transition: 0.3s ease-in;
   background-position: right center;
@@ -230,7 +233,7 @@ li {
 }
 
 label:hover {
-  cursor: pointer;
+  cursor: var(--point);
 }
 
 .sectie-a {
@@ -256,7 +259,7 @@ label:hover {
   width: 25em;
   border-style: solid;
   border-width: 1px;
-  border-color: #e0dedc;
+  border-color: var(--light-gray);
   align-self: center;
 }
 
