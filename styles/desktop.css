@@ -177,18 +177,6 @@ header {
   display: inline-block;
 }
 
-/* button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-weight: bold;
-  font-family: "Secular One", sans-serif;
-  background: transparent;
-  border-style: none;
-  font-size: 16px;
-  -webkit-text-fill-color: black;
-} */
-
 button {
   font-family: rigid-square, sans-serif;
   font-size: 1rem;
@@ -205,17 +193,20 @@ button {
 .button-duur,
 .button-niveau,
 .button-pas-toe {
-  background-image: linear-gradient(90deg, #feb51e 50%, #090940 50%);
+  color: #090940;
   width: 7.5rem;
+  background-color: #feb51e;
 }
+
 .button-categoriën:hover,
 .button-duur:hover,
 .button-niveau:hover,
 .button-pas-toe:hover {
+  background-color: #090940;
+  color: white;
+  transition: 0.3s ease-in;
   background-position: right center;
   transform: scale(1.05);
-  opacity: 0.9;
-  color: #ffffff;
 }
 
 .dropdown-content-categoriën,

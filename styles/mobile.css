@@ -142,6 +142,14 @@ header {
   cursor: pointer;
 }
 
+.button-pas-toe {
+  display: none;
+}
+
+.button-pas-toe-zichtbaar {
+  display: block;
+}
+
 .dropdown-totaal {
   display: none;
   user-select: none;
@@ -178,17 +186,20 @@ button {
 .button-duur,
 .button-niveau,
 .button-pas-toe {
-  background-image: linear-gradient(90deg, #feb51e 50%, #090940 50%);
-  width: 7.5em;
+  color: #090940;
+  width: 7.5rem;
+  background-color: #feb51e;
 }
+
 .button-categoriën:hover,
 .button-duur:hover,
 .button-niveau:hover,
 .button-pas-toe:hover {
+  background-color: #090940;
+  color: white;
+  transition: 0.3s ease-in;
   background-position: right center;
   transform: scale(1.05);
-  opacity: 0.9;
-  color: #ffffff;
 }
 
 .dropdown-content-categoriën,
