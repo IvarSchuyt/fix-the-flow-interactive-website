@@ -1,10 +1,5 @@
-## Navigatie VTHBO
-De navigatie die ik heb gemaakt heeft een overzichtelijke opbouw. De visuele werkvormen staan in het middenpunt van de pagina, zodat de gebruikers meteen kunnen beginnen met verkennen. Voor docenten die snel een passende werkvorm nodig hebben voor hun les is er een filter. Je kan kiezen tussen de categorie, duur en het niveau van een werkvorm. 
-<br>
-![readme-foto](https://user-images.githubusercontent.com/112855849/195568670-b3c618ee-3982-4a92-a4f4-836c9079ac7e.png)
-![readme-foto-dropdown](https://user-images.githubusercontent.com/112855849/195570295-4d79da3b-612f-4fce-b2ea-80a7d3858814.png)
-
-### Responsive
-Er is ook gedacht aan mobiele gebruikers. Wanneer een kleiner device gebruikt wordt, veranderd de site van twee kolommen naar één enkele kolom.
-<br>
-![readme-foto-responsive](https://user-images.githubusercontent.com/112855849/195565293-a014df68-7580-496c-b9b1-f86987d1e2f4.png)
+Ik had voor deze leertaak meerdere knoppen gemaakt die uiklapten door middel van een hover-class. Bij deze leertaak heb ik ze vervangen met javascript en heb ik de drie knoppen verborgen door de gebruiker eerst op de filterknop te laten klikken.
+![image](https://user-images.githubusercontent.com/112855849/214008986-98779201-1fdb-407b-985b-4bfa238bb2ee.png)
+![image](https://user-images.githubusercontent.com/112855849/214009029-5ad96ade-63b5-443e-bfc6-e22ccbb0107f.png)
+![image](https://user-images.githubusercontent.com/112855849/214009082-aed4ff28-ed82-436d-abd9-b1007730f554.png)
+ 
